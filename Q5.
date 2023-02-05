@@ -1,0 +1,49 @@
+# stack using python
+stack = []
+
+stack.append('1')
+stack.append('2')
+stack.append('3')
+stack.append('4')
+stack.append('5')
+stack.append('6')
+stack.append('7')
+stack.append('8')
+stack.append('9')
+stack.append('10')
+print('Initial stack')
+print(stack)
+
+print('\nElements popped from stack:')
+print(stack.pop())
+print(stack.pop())
+print(stack.pop())
+print(stack.pop())
+print(stack.pop())
+print(stack.pop())
+print(stack.pop())
+print(stack.pop())
+print(stack.pop())
+print(stack.pop())
+print('\nStack after elements are popped:')
+print(stack)
+
+#Q6
+# stack using python
+stack = []
+
+stack.append('Home')
+stack.append('About us')
+stack.append('Contact us')
+
+print('Initial stack')
+print(stack)
+
+print('\nElements popped from stack:')
+print(stack.pop())
+print(stack.pop())
+print(stack.pop())
+
+print('\nStack after elements are popped:')
+print(stack)
+
