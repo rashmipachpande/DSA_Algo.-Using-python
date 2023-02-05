@@ -1,0 +1,39 @@
+
+
+//7. sum of all elements in array using loop 
+function sumArray(array) {
+  const ourArray = [1, 2, 4, 8, -5];
+  let sum = 0;
+
+  for (let i = 0; i < ourArray.length; i += 1) {
+    sum += ourArray[i];
+  }
+  
+  return sum;
+}
+document.write(sumArray([1, 2, 4, 8, -5]));
+
+//9. reverse each word of string
+function reverseString(str) {
+    let newString = "";
+    for (let i = str.length - 1; i >= 0; i--) {
+        newString += str[i];
+    }
+    return newString;
+}
+const string = "word";
+const result = reverseString(string);
+document.writeln(result);
+//10.find largest number in list
+	function largest(arr) {
+		let i;
+		let max = arr[0];
+		for (i = 1; i < arr.length; i++) {
+			if (arr[i] > max)
+				max = arr[i];
+		}
+	return max;
+}
+	let arr = [10, 324, 45, 90, 98];
+	document.write("Largest in given array is " + largest(arr));
+
